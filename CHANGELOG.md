@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
+* fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: ntp support profile data [#7704](https://github.com/deepflowio/deepflow/pull/7704) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: agent fixes empty endpoint when setting http-endpoint-extraction.match-rules.prefix: "" [#7698](https://github.com/deepflowio/deepflow/pull/7698) by [TomatoMr](https://github.com/TomatoMr)
 * fix: modify log format [#7690](https://github.com/deepflowio/deepflow/pull/7690) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
@@ -113,6 +115,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: Ingester use the ORG log interface to write logs [#7763](https://github.com/deepflowio/deepflow/pull/7763) by [lzf575](https://github.com/lzf575)
+* feat: support opengauss svc [#7755](https://github.com/deepflowio/deepflow/pull/7755) by [askyrie](https://github.com/askyrie)
+* feat: add function_types in profile api response [#7754](https://github.com/deepflowio/deepflow/pull/7754) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: moves server controller logger module to libs [#7742](https://github.com/deepflowio/deepflow/pull/7742) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: call lua plugin [#7634](https://github.com/deepflowio/deepflow/pull/7634) by [duandaa](https://github.com/duandaa)
 * feat: agent - eBPF Improve aggregation efficiency of stack-trace string [#7655](https://github.com/deepflowio/deepflow/pull/7655) by [yinjiping](https://github.com/yinjiping)
 * feat: Table alert_event add tags and modify metric_value function error #26054 [#7652](https://github.com/deepflowio/deepflow/pull/7652) by [Ericsssss](https://github.com/Ericsssss)
