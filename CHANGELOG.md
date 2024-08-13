@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent enable feature permission [#7794](https://github.com/deepflowio/deepflow/pull/7794) by [roryye](https://github.com/roryye)
+* Revert "fix: refresh agent enable feature" [#7792](https://github.com/deepflowio/deepflow/pull/7792) by [jin-xiaofeng](https://github.com/jin-xiaofeng)
+* fix: refresh agent enable feature [#7790](https://github.com/deepflowio/deepflow/pull/7790) by [roryye](https://github.com/roryye)
+* fix: concurrent map read and map write [#7776](https://github.com/deepflowio/deepflow/pull/7776) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -268,6 +272,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: modify the default batch write size for metrics and flow logs [#7789](https://github.com/deepflowio/deepflow/pull/7789) by [lzf575](https://github.com/lzf575)
 * refactor: define field value type using enum [#7686](https://github.com/deepflowio/deepflow/pull/7686) by [lzf575](https://github.com/lzf575)
 * refactor: polish agent config [#7342](https://github.com/deepflowio/deepflow/pull/7342) by [sharang](https://github.com/sharang)
 * refactor: update monitor, server log with org info [#7597](https://github.com/deepflowio/deepflow/pull/7597) by [roryye](https://github.com/roryye)
@@ -286,6 +291,7 @@
 * refactor: trace_tree add encoding respose statistics [#7430](https://github.com/deepflowio/deepflow/pull/7430) by [lzf575](https://github.com/lzf575)
 
 #### Performance
+* perf: improve the performance of ClickHouse table changes under multiple organizations [#7788](https://github.com/deepflowio/deepflow/pull/7788) by [lzf575](https://github.com/lzf575)
 * perf: speed up the update of ClickHouse table structure [#7748](https://github.com/deepflowio/deepflow/pull/7748) by [lzf575](https://github.com/lzf575)
 * perf: speed up the update of ClickHouse table structure [#7746](https://github.com/deepflowio/deepflow/pull/7746) by [lzf575](https://github.com/lzf575)
 * perf: optimize trace_tree slice assignment [#7414](https://github.com/deepflowio/deepflow/pull/7414) by [lzf575](https://github.com/lzf575)
