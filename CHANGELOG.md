@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Memory profile report interval not effective [#8092](https://github.com/deepflowio/deepflow/pull/8092) by [rvql](https://github.com/rvql)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -119,6 +120,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add fields to some/ip log [#8093](https://github.com/deepflowio/deepflow/pull/8093) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: agent - eBPF Add Command for datadump [#8087](https://github.com/deepflowio/deepflow/pull/8087) by [yinjiping](https://github.com/yinjiping)
+* feat: support ByConity disk monitor [#8079](https://github.com/deepflowio/deepflow/pull/8079) by [lzf575](https://github.com/lzf575)
+* feat: querier exist support pod_service [#8072](https://github.com/deepflowio/deepflow/pull/8072) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: support some/ip [#8019](https://github.com/deepflowio/deepflow/pull/8019) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
@@ -268,6 +274,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: reduce the length of the receive queue [#8077](https://github.com/deepflowio/deepflow/pull/8077) by [lzf575](https://github.com/lzf575)
 * refactor: define field value type using enum [#7686](https://github.com/deepflowio/deepflow/pull/7686) by [lzf575](https://github.com/lzf575)
 * refactor: polish agent config [#7342](https://github.com/deepflowio/deepflow/pull/7342) by [sharang](https://github.com/sharang)
 * refactor: update monitor, server log with org info [#7597](https://github.com/deepflowio/deepflow/pull/7597) by [roryye](https://github.com/roryye)
