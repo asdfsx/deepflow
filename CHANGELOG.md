@@ -268,6 +268,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: agent adds the 'disabled-cgroups' configuration. [#8164](https://github.com/deepflowio/deepflow/pull/8164) by [TomatoMr](https://github.com/TomatoMr)
 * refactor: define field value type using enum [#7686](https://github.com/deepflowio/deepflow/pull/7686) by [lzf575](https://github.com/lzf575)
 * refactor: polish agent config [#7342](https://github.com/deepflowio/deepflow/pull/7342) by [sharang](https://github.com/sharang)
 * refactor: update monitor, server log with org info [#7597](https://github.com/deepflowio/deepflow/pull/7597) by [roryye](https://github.com/roryye)
