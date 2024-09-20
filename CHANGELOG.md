@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: applicaition log decode failed causes subsequent data anomalies [#8179](https://github.com/deepflowio/deepflow/pull/8179) by [lzf575](https://github.com/lzf575)
+* fix: Bad cstr passed into pcap_compile_nopcap [#8171](https://github.com/deepflowio/deepflow/pull/8171) by [rvql](https://github.com/rvql)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -268,6 +270,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: agent is compatibles with configuration and interfaces of both old and new versions [#8084](https://github.com/deepflowio/deepflow/pull/8084) by [TomatoMr](https://github.com/TomatoMr)
 * refactor: define field value type using enum [#7686](https://github.com/deepflowio/deepflow/pull/7686) by [lzf575](https://github.com/lzf575)
 * refactor: polish agent config [#7342](https://github.com/deepflowio/deepflow/pull/7342) by [sharang](https://github.com/sharang)
 * refactor: update monitor, server log with org info [#7597](https://github.com/deepflowio/deepflow/pull/7597) by [roryye](https://github.com/roryye)
