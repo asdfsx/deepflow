@@ -119,6 +119,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: exist function supports non-resource tags [#8255](https://github.com/deepflowio/deepflow/pull/8255) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: add process listener [#8211](https://github.com/deepflowio/deepflow/pull/8211) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
