@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent - eBPF Adjust the control logic for modifying map size [#8456](https://github.com/deepflowio/deepflow/pull/8456) by [yinjiping](https://github.com/yinjiping)
+* fix: no need to retry after writing failure [#8453](https://github.com/deepflowio/deepflow/pull/8453) by [lzf575](https://github.com/lzf575)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -119,6 +121,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Enable agent new rpc by default [#8455](https://github.com/deepflowio/deepflow/pull/8455) by [rvql](https://github.com/rvql)
+* feat: update trisolaris dynamic config [#8450](https://github.com/deepflowio/deepflow/pull/8450) by [askyrie](https://github.com/askyrie)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
