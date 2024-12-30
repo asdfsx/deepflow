@@ -119,6 +119,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat agent - eBPF Add DPDK statistics and update configuration [#8805](https://github.com/deepflowio/deepflow/pull/8805) by [yinjiping](https://github.com/yinjiping)
+* feat: agent - eBPF Adapt to TENCENT 5.4.119-19-0008.aarch64 [#8804](https://github.com/deepflowio/deepflow/pull/8804) by [yinjiping](https://github.com/yinjiping)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
