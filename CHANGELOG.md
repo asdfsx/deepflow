@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: compilation error [#8845](https://github.com/deepflowio/deepflow/pull/8845) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -119,6 +120,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: refactors metadb migration [#8847](https://github.com/deepflowio/deepflow/pull/8847) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: querier prometheus use cache by config [#8844](https://github.com/deepflowio/deepflow/pull/8844) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: support decap gre [#8837](https://github.com/deepflowio/deepflow/pull/8837) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: supports postgres in migration [#8836](https://github.com/deepflowio/deepflow/pull/8836) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
