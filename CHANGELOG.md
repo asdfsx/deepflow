@@ -119,6 +119,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* Revert "feat: removes unused agent group config downgrade code" [#8946](https://github.com/deepflowio/deepflow/pull/8946) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* feat: Support reclaiming page cache for agent [#8928](https://github.com/deepflowio/deepflow/pull/8928) by [rvql](https://github.com/rvql)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
