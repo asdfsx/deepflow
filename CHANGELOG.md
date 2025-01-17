@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent - eBPF Mitigating Memory Profile Load Failures [#8961](https://github.com/deepflowio/deepflow/pull/8961) by [yinjiping](https://github.com/yinjiping)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -119,6 +120,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Validate redis command [#8962](https://github.com/deepflowio/deepflow/pull/8962) by [rvql](https://github.com/rvql)
+* feat: support pcap compression & compression ratio calculation [#8938](https://github.com/deepflowio/deepflow/pull/8938) by [taloric](https://github.com/taloric)
+* feat: adds columns to npb_policy table [#8927](https://github.com/deepflowio/deepflow/pull/8927) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
