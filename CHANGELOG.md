@@ -8,6 +8,11 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent - eBPF Fix TCP DNS client request loss [#9218](https://github.com/deepflowio/deepflow/pull/9218) by [yinjiping](https://github.com/yinjiping)
+* fix: refactors resource event panic [#9217](https://github.com/deepflowio/deepflow/pull/9217) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* Fix the wrong real ip [#9209](https://github.com/deepflowio/deepflow/pull/9209) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: embed sub template [#9208](https://github.com/deepflowio/deepflow/pull/9208) by [taloric](https://github.com/taloric)
+* fix: load yaml key case sensitive [#9204](https://github.com/deepflowio/deepflow/pull/9204) by [askyrie](https://github.com/askyrie)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -119,6 +124,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: verify node internal address [#9213](https://github.com/deepflowio/deepflow/pull/9213) by [askyrie](https://github.com/askyrie)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
