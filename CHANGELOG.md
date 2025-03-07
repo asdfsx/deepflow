@@ -8,6 +8,7 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: data_source table init failed [#9266](https://github.com/deepflowio/deepflow/pull/9266) by [SongZhen0704](https://github.com/SongZhen0704)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -119,6 +120,12 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: modify default query_time [#9263](https://github.com/deepflowio/deepflow/pull/9263) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: add query_time in data_source [#9255](https://github.com/deepflowio/deepflow/pull/9255) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: output k8s cluster [#9253](https://github.com/deepflowio/deepflow/pull/9253) by [askyrie](https://github.com/askyrie)
+* feat: refresh agent upgrade [#9245](https://github.com/deepflowio/deepflow/pull/9245) by [askyrie](https://github.com/askyrie)
+* feat: change custom category to custom tag category [#9228](https://github.com/deepflowio/deepflow/pull/9228) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: agent upgrade image add cache [#9186](https://github.com/deepflowio/deepflow/pull/9186) by [askyrie](https://github.com/askyrie)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
