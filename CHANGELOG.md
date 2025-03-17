@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: genesis sync update storage [#9311](https://github.com/deepflowio/deepflow/pull/9311) by [askyrie](https://github.com/askyrie)
+* fix: show metrics error when table is event [#9285](https://github.com/deepflowio/deepflow/pull/9285) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
