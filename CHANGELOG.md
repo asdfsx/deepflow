@@ -119,6 +119,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: remove license function [#9402](https://github.com/deepflowio/deepflow/pull/9402) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: add license_function const [#9397](https://github.com/deepflowio/deepflow/pull/9397) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: add domain/sub_domain state value [#9396](https://github.com/deepflowio/deepflow/pull/9396) by [SongZhen0704](https://github.com/SongZhen0704)
+* feat: agent group config api responses more detail comments [#9393](https://github.com/deepflowio/deepflow/pull/9393) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
@@ -303,6 +307,7 @@
 
 
 #### OTHER
+* doc: remove comment [#9401](https://github.com/deepflowio/deepflow/pull/9401) by [taloric](https://github.com/taloric)
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
 * refector: add agent.proto [#7695](https://github.com/deepflowio/deepflow/pull/7695) by [yuanchaoa](https://github.com/yuanchaoa)
 * Update changelog [#7660](https://github.com/deepflowio/deepflow/pull/7660) by [lzf575](https://github.com/lzf575)
