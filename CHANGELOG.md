@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Fix tracing tag priority [#9451](https://github.com/deepflowio/deepflow/pull/9451) by [rvql](https://github.com/rvql)
+* fix: agent - eBPF Fix byte order of DNS IP address [#9444](https://github.com/deepflowio/deepflow/pull/9444) by [yinjiping](https://github.com/yinjiping)
+* fix: fix promql query return ck sql [#9440](https://github.com/deepflowio/deepflow/pull/9440) by [taloric](https://github.com/taloric)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -119,6 +122,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: Support priority of configured tracing tags [#9449](https://github.com/deepflowio/deepflow/pull/9449) by [rvql](https://github.com/rvql)
+* feat: update controller const [#9447](https://github.com/deepflowio/deepflow/pull/9447) by [askyrie](https://github.com/askyrie)
+* feat: Support module log level config [#9436](https://github.com/deepflowio/deepflow/pull/9436) by [rvql](https://github.com/rvql)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
