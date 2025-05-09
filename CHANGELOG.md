@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent - eBPF Fix high resource usage in container ID retrieval [#9622](https://github.com/deepflowio/deepflow/pull/9622) by [yinjiping](https://github.com/yinjiping)
+* fix: Windows compile [#9613](https://github.com/deepflowio/deepflow/pull/9613) by [rvql](https://github.com/rvql)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
