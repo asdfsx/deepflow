@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: config map data hash [#9744](https://github.com/deepflowio/deepflow/pull/9744) by [askyrie](https://github.com/askyrie)
+* fix: agnet - eBPF Bypass kernel bug in fentry/fexit [#9738](https://github.com/deepflowio/deepflow/pull/9738) by [yinjiping](https://github.com/yinjiping)
+* fix: l7 throttle is not accurate [#9670](https://github.com/deepflowio/deepflow/pull/9670) by [lzf575](https://github.com/lzf575)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -119,6 +122,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: resource event stores attributes info [#9729](https://github.com/deepflowio/deepflow/pull/9729) by [lzf575](https://github.com/lzf575)
+* feat: opt lookup gpid [#9722](https://github.com/deepflowio/deepflow/pull/9722) by [yuanchaoa](https://github.com/yuanchaoa)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
