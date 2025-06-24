@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: incorrect l7 timeout metrics [#9921](https://github.com/deepflowio/deepflow/pull/9921) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: show tags only returns normal native field [#9916](https://github.com/deepflowio/deepflow/pull/9916) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: opt compression [#9889](https://github.com/deepflowio/deepflow/pull/9889) by [taloric](https://github.com/taloric)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
