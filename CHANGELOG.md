@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Opensource arm64 compile [#10145](https://github.com/deepflowio/deepflow/pull/10145) by [rvql](https://github.com/rvql)
+* fix: select not exist field in vinterface table [#10140](https://github.com/deepflowio/deepflow/pull/10140) by [SongZhen0704](https://github.com/SongZhen0704)
+* fix: incorrect handshaking rtt [#10139](https://github.com/deepflowio/deepflow/pull/10139) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
