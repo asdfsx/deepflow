@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Flush cached stats when flow ends [#10313](https://github.com/deepflowio/deepflow/pull/10313) by [rvql](https://github.com/rvql)
+* fix: incorrect http2 log [#10310](https://github.com/deepflowio/deepflow/pull/10310) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: Support k8s ingress prior to 1.22 [#10309](https://github.com/deepflowio/deepflow/pull/10309) by [rvql](https://github.com/rvql)
+* fix: stores wrong updated_at value of recreated resouce [#10308](https://github.com/deepflowio/deepflow/pull/10308) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
