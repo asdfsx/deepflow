@@ -8,6 +8,10 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* Revert "fix: update auto_service/instance when gpid from process_id" [#10399](https://github.com/deepflowio/deepflow/pull/10399) by [lzf575](https://github.com/lzf575)
+* fix: mysql issu index [#10397](https://github.com/deepflowio/deepflow/pull/10397) by [askyrie](https://github.com/askyrie)
+* fix: agent - Add conditional compilation to protect_cpu_affinity() [#10387](https://github.com/deepflowio/deepflow/pull/10387) by [yinjiping](https://github.com/yinjiping)
+* fix: support biz_type at HOOK_POINT_HTTP_REQ/RESP [#10371](https://github.com/deepflowio/deepflow/pull/10371) by [yuanchaoa](https://github.com/yuanchaoa)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -119,6 +123,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: tagrecorder add updated_at index [#10379](https://github.com/deepflowio/deepflow/pull/10379) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
