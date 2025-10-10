@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: modify the default value of inference_max_retries [#10557](https://github.com/deepflowio/deepflow/pull/10557) by [yuanchaoa](https://github.com/yuanchaoa)
+* Fix ai-devel.yaml for fork PR (cont.) [#10556](https://github.com/deepflowio/deepflow/pull/10556) by [kylewanginchina](https://github.com/kylewanginchina)
+* fix: fix bug in agent command forward [#10554](https://github.com/deepflowio/deepflow/pull/10554) by [SongZhen0704](https://github.com/SongZhen0704)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -119,6 +122,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: querier modify avg_duration [#10548](https://github.com/deepflowio/deepflow/pull/10548) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: vpc add field owner [#10511](https://github.com/deepflowio/deepflow/pull/10511) by [askyrie](https://github.com/askyrie)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
@@ -299,8 +304,8 @@
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
 
 #### Chore
+* chore: the file event metrics table removes the avg aggregation of duration [#10552](https://github.com/deepflowio/deepflow/pull/10552) by [lzf575](https://github.com/lzf575)
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
-
 
 #### OTHER
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
