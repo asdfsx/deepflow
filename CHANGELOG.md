@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: use aavg instead of avg in deepflow avg countings [#10822](https://github.com/deepflowio/deepflow/pull/10822) by [taloric](https://github.com/taloric)
+* fix: cloud not stop [#10819](https://github.com/deepflowio/deepflow/pull/10819) by [askyrie](https://github.com/askyrie)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -286,6 +288,7 @@
 * refactor: trace_tree add encoding respose statistics [#7430](https://github.com/deepflowio/deepflow/pull/7430) by [lzf575](https://github.com/lzf575)
 
 #### Performance
+* perf: Reduce the load and bandwidth usage on MySQL [#10826](https://github.com/deepflowio/deepflow/pull/10826) by [SongZhen0704](https://github.com/SongZhen0704)
 * perf: speed up the update of ClickHouse table structure [#7748](https://github.com/deepflowio/deepflow/pull/7748) by [lzf575](https://github.com/lzf575)
 * perf: speed up the update of ClickHouse table structure [#7746](https://github.com/deepflowio/deepflow/pull/7746) by [lzf575](https://github.com/lzf575)
 * perf: optimize trace_tree slice assignment [#7414](https://github.com/deepflowio/deepflow/pull/7414) by [lzf575](https://github.com/lzf575)
