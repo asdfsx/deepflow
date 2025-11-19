@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: Avoid making frequent requests to the server [#10855](https://github.com/deepflowio/deepflow/pull/10855) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: disorder of memory cache in recorder [#10849](https://github.com/deepflowio/deepflow/pull/10849) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
