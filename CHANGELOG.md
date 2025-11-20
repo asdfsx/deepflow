@@ -119,6 +119,7 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: queier native tag supports null [#10862](https://github.com/deepflowio/deepflow/pull/10862) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
@@ -299,8 +300,8 @@
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
 
 #### Chore
+* chore: add the priority cleanup table file_event, when disk is full [#10866](https://github.com/deepflowio/deepflow/pull/10866) by [lzf575](https://github.com/lzf575)
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
-
 
 #### OTHER
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
