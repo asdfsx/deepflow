@@ -8,6 +8,11 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: slimit supports custom biz service filter [#10922](https://github.com/deepflowio/deepflow/pull/10922) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: only 0/1 filter in custom_service_filter [#10920](https://github.com/deepflowio/deepflow/pull/10920) by [SongZhen0704](https://github.com/SongZhen0704)
+* fix: support auto_service_id tranform by custom_biz_service_filter_map [#10917](https://github.com/deepflowio/deepflow/pull/10917) by [SongZhen0704](https://github.com/SongZhen0704)
+* fix: support backtick in auto_service_type_1 [#10916](https://github.com/deepflowio/deepflow/pull/10916) by [SongZhen0704](https://github.com/SongZhen0704)
+* fix: support backtick in auto_service_type [#10915](https://github.com/deepflowio/deepflow/pull/10915) by [SongZhen0704](https://github.com/SongZhen0704)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -119,6 +124,8 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: querier add trigger threshold [#10913](https://github.com/deepflowio/deepflow/pull/10913) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: support disabled push [#10912](https://github.com/deepflowio/deepflow/pull/10912) by [askyrie](https://github.com/askyrie)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
