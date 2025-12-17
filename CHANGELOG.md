@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: treat RocketMQ normal business response codes as Ok instead of E… [#11024](https://github.com/deepflowio/deepflow/pull/11024) by [kylewanginchina](https://github.com/kylewanginchina)
+* fix: add biz fields for webspheremq [#11006](https://github.com/deepflowio/deepflow/pull/11006) by [lzf575](https://github.com/lzf575)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -119,6 +121,9 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: webspheremq enhanced parsing [#11015](https://github.com/deepflowio/deepflow/pull/11015) by [lzf575](https://github.com/lzf575)
+* feat: add cloud common for ruijie [#10986](https://github.com/deepflowio/deepflow/pull/10986) by [askyrie](https://github.com/askyrie)
+* feat: genesis vinterface ignore kube-ipvs0 [#10985](https://github.com/deepflowio/deepflow/pull/10985) by [askyrie](https://github.com/askyrie)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
@@ -303,6 +308,7 @@
 
 
 #### OTHER
+* Update Dockerfile [#11010](https://github.com/deepflowio/deepflow/pull/11010) by [1473371932](https://github.com/1473371932)
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
 * refector: add agent.proto [#7695](https://github.com/deepflowio/deepflow/pull/7695) by [yuanchaoa](https://github.com/yuanchaoa)
 * Update changelog [#7660](https://github.com/deepflowio/deepflow/pull/7660) by [lzf575](https://github.com/lzf575)
