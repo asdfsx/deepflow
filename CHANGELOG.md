@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: modify the position of the ooo metrics [#11048](https://github.com/deepflowio/deepflow/pull/11048) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: issue of unable to obtain control IP + MAC [#11039](https://github.com/deepflowio/deepflow/pull/11039) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: Windows compile error [#11038](https://github.com/deepflowio/deepflow/pull/11038) by [rvql](https://github.com/rvql)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -119,6 +122,10 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: add ooo_tx/rx fin_count fields [#11053](https://github.com/deepflowio/deepflow/pull/11053) by [lzf575](https://github.com/lzf575)
+* feat: cloud default region name [#11052](https://github.com/deepflowio/deepflow/pull/11052) by [askyrie](https://github.com/askyrie)
+* feat: cloud exception add timestamp [#11051](https://github.com/deepflowio/deepflow/pull/11051) by [askyrie](https://github.com/askyrie)
+* feat: querier add ooo metric [#10989](https://github.com/deepflowio/deepflow/pull/10989) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
@@ -299,8 +306,8 @@
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
 
 #### Chore
+* chore: need to be built on Windows [#11040](https://github.com/deepflowio/deepflow/pull/11040) by [lzf575](https://github.com/lzf575)
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
-
 
 #### OTHER
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
