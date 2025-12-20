@@ -8,6 +8,8 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: incorrect ooo rx count [#11070](https://github.com/deepflowio/deepflow/pull/11070) by [yuanchaoa](https://github.com/yuanchaoa)
+* fix: eBPF excessive perf buffer memory usage on large page size systems [#11066](https://github.com/deepflowio/deepflow/pull/11066) by [yinjiping](https://github.com/yinjiping)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
