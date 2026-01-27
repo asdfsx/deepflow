@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: windows/android querier keeps appending raw ip addr [#11318](https://github.com/deepflowio/deepflow/pull/11318) by [rvql](https://github.com/rvql)
+* fix: make merge_php_stacks compatible for some special cases [#11310](https://github.com/deepflowio/deepflow/pull/11310) by [kylewanginchina](https://github.com/kylewanginchina)
+* fix: make merge_v8_stacks compatible for some special cases [#11290](https://github.com/deepflowio/deepflow/pull/11290) by [kylewanginchina](https://github.com/kylewanginchina)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
@@ -119,6 +122,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: app log support string metrics [#11320](https://github.com/deepflowio/deepflow/pull/11320) by [lzf575](https://github.com/lzf575)
+* feat: modify pgsql algo logic [#11316](https://github.com/deepflowio/deepflow/pull/11316) by [yuanchaoa](https://github.com/yuanchaoa)
+* feat: add observation_point for tracetree [#11314](https://github.com/deepflowio/deepflow/pull/11314) by [taloric](https://github.com/taloric)
+* feat: add biz_response_code [#11307](https://github.com/deepflowio/deepflow/pull/11307) by [lzf575](https://github.com/lzf575)
+* feat: support off-cpu profile for php and nodejs/v8 [#11287](https://github.com/deepflowio/deepflow/pull/11287) by [kylewanginchina](https://github.com/kylewanginchina)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
@@ -268,6 +276,7 @@
 * feat: server directly reports metrics of load1_by_cpu_num that can be used for alert [#7088](https://github.com/deepflowio/deepflow/pull/7088) by [lzf575](https://github.com/lzf575)
 
 #### Refactoring
+* refactor: migrate python/lua/php/nodejs unwind code into ee [#11179](https://github.com/deepflowio/deepflow/pull/11179) by [kylewanginchina](https://github.com/kylewanginchina)
 * refactor: define field value type using enum [#7686](https://github.com/deepflowio/deepflow/pull/7686) by [lzf575](https://github.com/lzf575)
 * refactor: polish agent config [#7342](https://github.com/deepflowio/deepflow/pull/7342) by [sharang](https://github.com/sharang)
 * refactor: update monitor, server log with org info [#7597](https://github.com/deepflowio/deepflow/pull/7597) by [roryye](https://github.com/roryye)
@@ -299,8 +308,8 @@
 * docs: rename opentemetry to opentelemetry [#7245](https://github.com/deepflowio/deepflow/pull/7245) by [lzf575](https://github.com/lzf575)
 
 #### Chore
+* chore: default value of parse xml set to true [#11313](https://github.com/deepflowio/deepflow/pull/11313) by [lzf575](https://github.com/lzf575)
 * chore: update cli dependencies [#7249](https://github.com/deepflowio/deepflow/pull/7249) by [lzf575](https://github.com/lzf575)
-
 
 #### OTHER
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
