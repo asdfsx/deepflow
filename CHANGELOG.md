@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: delete gather cluster id [#11385](https://github.com/deepflowio/deepflow/pull/11385) by [askyrie](https://github.com/askyrie)
+* fix: update ch_vtap_port error [#11383](https://github.com/deepflowio/deepflow/pull/11383) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
+* fix: fail to clear deleted sub_domain resource [#11378](https://github.com/deepflowio/deepflow/pull/11378) by [ZhengYa-0110](https://github.com/ZhengYa-0110)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
