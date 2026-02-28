@@ -8,6 +8,9 @@
 ### <a id="main"></a>DeepFlow release main
 
 #### Bug Fix
+* fix: agent_group_config list command error [#11412](https://github.com/deepflowio/deepflow/pull/11412) by [SongZhen0704](https://github.com/SongZhen0704)
+* fix: querier chost_ip filter error [#11409](https://github.com/deepflowio/deepflow/pull/11409) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* fix: handle extra_filters with correct seq [#11408](https://github.com/deepflowio/deepflow/pull/11408) by [taloric](https://github.com/taloric)
 * fix: not found replicaset pod [#7762](https://github.com/deepflowio/deepflow/pull/7762) by [askyrie](https://github.com/askyrie)
 * fix: Modify alert_policy filter [#7757](https://github.com/deepflowio/deepflow/pull/7757) by [Ericsssss](https://github.com/Ericsssss)
 * fix: traffic.go log [#7738](https://github.com/deepflowio/deepflow/pull/7738) by [roryye](https://github.com/roryye)
