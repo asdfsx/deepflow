@@ -303,6 +303,7 @@
 
 
 #### OTHER
+* Update ai-devel.yaml [#11457](https://github.com/deepflowio/deepflow/pull/11457) by [kylewanginchina](https://github.com/kylewanginchina)
 * use .env to config docker-compose.yaml [#7729](https://github.com/deepflowio/deepflow/pull/7729) by [asdfsx](https://github.com/asdfsx)
 * refector: add agent.proto [#7695](https://github.com/deepflowio/deepflow/pull/7695) by [yuanchaoa](https://github.com/yuanchaoa)
 * Update changelog [#7660](https://github.com/deepflowio/deepflow/pull/7660) by [lzf575](https://github.com/lzf575)
