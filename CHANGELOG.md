@@ -119,6 +119,11 @@
 * Fix prometheus data cannot be labeled with universal tags，if slow-decoder is used. [#7100](https://github.com/deepflowio/deepflow/pull/7100)
 
 #### NEW FEATURE
+* feat: querier support alert state [#11508](https://github.com/deepflowio/deepflow/pull/11508) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: modify metric value displayname [#11507](https://github.com/deepflowio/deepflow/pull/11507) by [xiaochaoren1](https://github.com/xiaochaoren1)
+* feat: update default port name regex [#11506](https://github.com/deepflowio/deepflow/pull/11506) by [askyrie](https://github.com/askyrie)
+* feat: custom policy and field disabled [#11504](https://github.com/deepflowio/deepflow/pull/11504) by [askyrie](https://github.com/askyrie)
+* feat: add enabled flag to custom app policies and fields [#11503](https://github.com/deepflowio/deepflow/pull/11503) by [rvql](https://github.com/rvql)
 * feat: support ByConity database [#7756](https://github.com/deepflowio/deepflow/pull/7756) by [lzf575](https://github.com/lzf575)
 * feat: querier support byconity [#7753](https://github.com/deepflowio/deepflow/pull/7753) by [xiaochaoren1](https://github.com/xiaochaoren1)
 * feat: mac displays the resources to which the agent belongs [#7765](https://github.com/deepflowio/deepflow/pull/7765) by [xiaochaoren1](https://github.com/xiaochaoren1)
